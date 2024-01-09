@@ -1,0 +1,32 @@
+/* Become Banner Start */
+.dealer-banner-main .banner-detail {
+    background-image: url("../images/become-dealer-banner.svg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  .dealer-side-banner {
+    background-color: var(--theme-red);
+    overflow: hidden;
+  }
+  .dealer-side-banner:before {
+    content: url(../images/block-a.svg);
+    position: absolute;
+    top: -2rem;
+    left: -7rem;
+  }
+  .dealer-side-banner:after {
+    content: url(../images/block-b.svg);
+    position: absolute;
+    top: 9rem;
+    right: -8rem;
+  }
+  .dealer-side-banner .person-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 90%;
+  }
+  
+  /* Become Banner End */

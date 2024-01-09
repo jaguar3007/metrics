@@ -1,0 +1,5 @@
+export const product_details = [{
+    "product_name" : "Casting Pulley",
+    "product_desc" : " Casting pulleys are made from materials like gray iron, ductile iron, or cast carbon steel. The sand casting method is often used to create pulleys. After casting, the pulley groove is created using NC lathe machining Cast iron pulleys are strong and dense, and can withstand high speeds and heavy loads. The rims of cast iron pulleys often have a slight convexity, called crowning. This prevents the belt from slipping axially during operation Pulleys can be divided into four types: Casting pulley, Forging pulley, Welding pulley, Nylon pulley. Ordinary cranes typically use cast iron, cast steel, and rolled. Port cranes usually use rolled pulley, forged pulley, and nylon pulley.",
+    "product_img" : "images/pulley-casting.jpg",
+}]
