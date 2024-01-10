@@ -39,7 +39,7 @@ const Nav = () => {
 	</Helmet>
             <nav className="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
                 <div className="container">
-                    <a className="navbar-brand" href="index.html">Metrics<span>Engineers</span></a>
+                    <a className="navbar-brand" href="index.html" style={{backgroundColor:'transparent'}}><img src="images/metrics_logo.png" height="50px" width="200px" alt='sorry' /></a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
                         aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="oi oi-menu"></span> Menu
@@ -47,12 +47,12 @@ const Nav = () => {
                   
                     <div className="collapse navbar-collapse " id="ftco-nav">
                         <ul className="navbar-nav ml-auto ">
-                            <li  className="nav-link" style={{fontSize:'20px' , color:'white'}}><Link className='nav-link' to="/">Home</Link></li>
-                            <li  className="nav-link" style={{fontSize:'20px'}}><Link className='nav-link' to="about">About Us</Link></li>
-                            <li  className="nav-link" style={{fontSize:'20px'}}><Link className='nav-link' to="business">Business</Link></li>
-                            <li  className="nav-link" style={{fontSize:'20px'}}><Link className='nav-link' to="product">Products</Link></li>
-                            <li  className="nav-link" style={{fontSize:'20px'}}><Link className='nav-link' to="facilites">Facilities & Technologies</Link></li>
-                            <li  className="nav-link" style={{fontSize:'20px'}}><Link className='nav-link' to="contact">Contact Us</Link></li>
+                            <li  className="nav-link" style={{fontSize:'16px' , color:'white'}}><Link className='nav-link' to="/">Home</Link></li>
+                            <li  className="nav-link" style={{fontSize:'16px'}}><Link className='nav-link' to="about">About Us</Link></li>
+                            <li  className="nav-link" style={{fontSize:'16px'}}><Link className='nav-link' to="product">Products</Link></li>
+                            <li  className="nav-link" style={{fontSize:'16px'}}><Link className='nav-link' to="facilites">Facilities & Technologies</Link></li>
+                            <li  className="nav-link" style={{fontSize:'16px'}}><Link className='nav-link' to="contact">Contact Us</Link></li>
+                            <li  className="nav-link" style={{fontSize:'16px',backgroundColor:'orange'}}><a className='nav-link' href="Files/Metrics_brochure.pdf" style={{color:'white'}}>Download Brochure</a></li>
                         </ul>
                     </div>
                     
